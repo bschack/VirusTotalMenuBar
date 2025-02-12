@@ -29,9 +29,22 @@
 		88A782842D5BD0190087722A /* VirusTotalMenuBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirusTotalMenuBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		88A7829A2D5BF55E0087722A /* Exceptions for "VirusTotalMenuBar" folder in "VirusTotalMenuBar" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 88A782682D5BD0170087722A /* VirusTotalMenuBar */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		88A7826B2D5BD0170087722A /* VirusTotalMenuBar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				88A7829A2D5BF55E0087722A /* Exceptions for "VirusTotalMenuBar" folder in "VirusTotalMenuBar" target */,
+			);
 			path = VirusTotalMenuBar;
 			sourceTree = "<group>";
 		};
@@ -78,6 +91,7 @@
 				88A7826B2D5BD0170087722A /* VirusTotalMenuBar */,
 				88A7827D2D5BD0190087722A /* VirusTotalMenuBarTests */,
 				88A782872D5BD0190087722A /* VirusTotalMenuBarUITests */,
+				88A782AC2D5C35F60087722A /* Frameworks */,
 				88A7826A2D5BD0170087722A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +104,13 @@
 				88A782842D5BD0190087722A /* VirusTotalMenuBarUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		88A782AC2D5C35F60087722A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +216,8 @@
 			);
 			mainGroup = 88A782602D5BD0170087722A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 88A7826A2D5BD0170087722A /* Products */;
 			projectDirPath = "";
@@ -392,13 +415,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = VirusTotalMenuBar/VirusTotalMenuBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VirusTotalMenuBar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirusTotalMenuBar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Virus Total Menu Bar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,13 +446,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = VirusTotalMenuBar/VirusTotalMenuBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VirusTotalMenuBar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VirusTotalMenuBar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Virus Total Menu Bar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
